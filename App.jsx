@@ -9,8 +9,8 @@ function App() {
   const [calendar, setCalendar] = useState([]);
 
   const submit = async () => {
-    const res = await axios.post('axios.post('https://the-social-network-backend-y8zx.onrender.com/analyze', {
-', {
+    const res = await axios.post('https://the-social-network-backend-y8zx.onrender.com/analyze', {
+
       url,
       tone,
       niche
